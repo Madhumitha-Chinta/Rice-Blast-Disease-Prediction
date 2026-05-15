@@ -7,7 +7,6 @@ import json
 # --- Page Config ---
 st.set_page_config(
     page_title="Rice Blast Predictor",
-    page_icon="🌾",
     layout="wide",
     initial_sidebar_state="expanded",
 )
