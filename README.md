@@ -5,6 +5,8 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E.svg)
 ![Accuracy](https://img.shields.io/badge/Accuracy-86.5%25-brightgreen.svg)
 
+##Live Demo: [Click here to view the live Streamlit application!](https://rice-blast-disease-prediction-cmv5wccba4xdwzlspcterb.streamlit.app/)
+
 ##  Project Overview
 This project provides an end-to-end Machine Learning pipeline and a premium interactive web dashboard to detect **Rice Blast disease** at early stages. By analyzing environmental conditions (Temperature, Humidity, Leaf Wetness) and physical plant features (Lesion Size, Nitrogen Levels), the system predicts the likelihood of disease occurrence, enabling rapid intervention for crop protection.
 
