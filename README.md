@@ -1,21 +1,21 @@
-# 🌾 Rice Blast Disease Prediction & Monitoring Dashboard
+# Rice Blast Disease Prediction & Monitoring Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E.svg)
 ![Accuracy](https://img.shields.io/badge/Accuracy-86.5%25-brightgreen.svg)
 
-## 📌 Project Overview
+##  Project Overview
 This project provides an end-to-end Machine Learning pipeline and a premium interactive web dashboard to detect **Rice Blast disease** at early stages. By analyzing environmental conditions (Temperature, Humidity, Leaf Wetness) and physical plant features (Lesion Size, Nitrogen Levels), the system predicts the likelihood of disease occurrence, enabling rapid intervention for crop protection.
 
-## ✨ Key Features & Techniques
+##  Key Features & Techniques
 - **Interactive Web Dashboard:** A premium, modern UI built with **Streamlit** to predict crop health dynamically using sliders, visual metric cards, and performance dashboards.
 - **Algorithm:** Multilayer Perceptron (MLP) Neural Network (`MLPClassifier`).
 - **Realistic Performance:** Achieves a highly realistic **86.5% Accuracy**, along with precision, recall, and F1-score evaluation. 
 - **Class Imbalance Handling:** Used **SMOTE** (Synthetic Minority Over-sampling Technique) to oversample the minority disease class, significantly improving recall and overall model robustness in real-world skewed agricultural datasets.
 - **Data Preprocessing:** Standardized features using `StandardScaler` to ensure the neural network converges quickly and effectively.
 
-## 📂 File Structure
+##  File Structure
 - `app.py`: The main Streamlit web application featuring a beautiful frontend for making predictions and visualizing model metrics.
 - `train_model.py`: Handles class imbalance via SMOTE, preprocesses data, trains the MLP model, generates evaluation plots, and saves the final model/metrics.
 - `predict.py`: A terminal-based script demonstrating how to load the saved `.pkl` files and make terminal-based predictions.
@@ -23,7 +23,7 @@ This project provides an end-to-end Machine Learning pipeline and a premium inte
 - `metrics.json` & `plots/`: Automatically generated files containing the model's performance metrics and visual charts (Confusion Matrix, Feature Correlation, Class Distribution).
 - `requirements.txt`: Python package dependencies required to run the project.
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone & Install Dependencies
 First, clone the repository and install the required Python packages:
@@ -53,8 +53,3 @@ python data_generation.py
 python train_model.py
 ```
 
-## 📸 Dashboard Preview
-*(Once you upload to GitHub, you can drag and drop a screenshot of your Streamlit app here!)*
-
----
-**Developed by:** Chinta Madhumitha
